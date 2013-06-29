@@ -1,0 +1,1 @@
+!function(o,e){var n=o.data;o.log=function(o,s){e.console&&(s||n.debug)&&console[s||(s="log")]&&console[s](o)},define("seajs-log",[],{})}(seajs,this);

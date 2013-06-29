@@ -1,0 +1,12 @@
+{
+  "family": "seajs",
+  "name": "seajs-log",
+  "version": "1.0.0",
+  "description": "A Sea.js plugin to provide log function",
+  "keywords": ["seajs", "plugin", "log"],
+  "author": "Frank Wang <lifesinger@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/seajs/seajs-log.git"
+  }
+}
