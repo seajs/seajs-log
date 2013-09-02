@@ -1,1 +1,2 @@
-!function(o,e){var n=o.data;o.log=function(o,s){e.console&&(s||n.debug)&&console[s||(s="log")]&&console[s](o)},define("seajs-log",[],{})}(seajs,this);
+define("seajs/seajs-log/1.0.0/seajs-log",[],function(){var a=seajs.data;seajs.log=function(b,c){window.console&&(c||a.debug)&&console[c||(c="log")]&&console[c](b)}});
+seajs.use("seajs/seajs-log/1.0.0/seajs-log");

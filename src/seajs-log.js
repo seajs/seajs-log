@@ -1,7 +1,7 @@
 /**
  * The Sea.js plugin to provide log function
  */
-(function(seajs, global) {
+define(function() {
 
   var data = seajs.data
 
@@ -11,7 +11,7 @@
   // log("message", "warn") ==> console.warn("message")
   seajs.log = function(msg, type) {
 
-    global.console &&
+    window.console &&
       // Do NOT print `log(msg)` in non-debug mode
         (type || data.debug) &&
       // Set the default value of type
@@ -20,9 +20,4 @@
     console[type](msg)
   }
 
-
-  // Register as module
-  define("seajs-log", [], {})
-
-})(seajs, this);
-
+});
