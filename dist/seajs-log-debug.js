@@ -1,7 +1,7 @@
 /**
  * The Sea.js plugin to provide log function
  */
-define("seajs/seajs-log/1.0.0/seajs-log-debug", [], function() {
+define("seajs/seajs-log/1.0.1/seajs-log-debug", [], function() {
     var data = seajs.data;
     // The safe wrapper for `console.xxx` functions
     // log("message") ==> console.log("message")
@@ -14,4 +14,4 @@ define("seajs/seajs-log/1.0.0/seajs-log-debug", [], function() {
     };
 });
 
-seajs.use("seajs/seajs-log/1.0.0/seajs-log-debug");
+seajs.require("seajs/seajs-log/1.0.1/seajs-log-debug");
