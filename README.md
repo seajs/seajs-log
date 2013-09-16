@@ -4,7 +4,7 @@ seajs-log
 A Sea.js plugin to provide log function
 
 
-> To use seajs-log@1.0.1+,  please use seajs@2.2.0+ !
+> seajs-log@1.0.1+ is compatible with seajs@2.2.0+ !
 
 
 Install
