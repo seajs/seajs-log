@@ -20,17 +20,17 @@ define(function(require) {
   test.assert(consoleMsgStack.pop() === undefined, 'DO NOT show log info in console when debug is off')
 
   seajs.log('2', 'warn')
-  test.assert(consoleMsgStack.pop() === '2', 'Show warn info in console at anytime')
+  test.assert(consoleMsgStack.pop()[0] === '2', 'Show warn info in console at anytime')
 
   seajs.config({
     debug: true
   })
 
   seajs.log('3')
-  test.assert(consoleMsgStack.pop() === '3', 'Show log info in console when debug is on')
+  test.assert(consoleMsgStack.pop()[0] === '3', 'Show log info in console when debug is on')
 
   seajs.log('4', 'warn')
-  test.assert(consoleMsgStack.pop() === '4', 'Show warn info in console at anytime')
+  test.assert(consoleMsgStack.pop()[0] === '4', 'Show warn info in console at anytime')
 
 
   test.assert(data.debug === true, 'debug = ' + data.debug)

@@ -12,7 +12,9 @@
   "devDependencies": {
     "seatools": "*"
   },
-  "spm": {
-    "output": ["seajs-log.js"]
+  "config": {
+    "plugin-concat": [
+      "seajs-log.js"
+    ]
   }
 }
