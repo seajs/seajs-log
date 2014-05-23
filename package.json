@@ -12,7 +12,7 @@
     "seatools": "*"
   },
   "spm": {
-    "main": "dist/seajs-style.js"
+    "main": "dist/seajs-log.js"
   },
   "config": {
     "plugin-concat": [
