@@ -1,5 +1,4 @@
 {
-  "family": "seajs",
   "name": "seajs-log",
   "version": "1.0.1",
   "description": "A Sea.js plugin to provide log function",
@@ -11,6 +10,9 @@
   },
   "devDependencies": {
     "seatools": "*"
+  },
+  "spm": {
+    "main": "dist/seajs-style.js"
   },
   "config": {
     "plugin-concat": [
